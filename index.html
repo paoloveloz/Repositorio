@@ -3,26 +3,26 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <!-- Titulo del Navegador -->
+
+    <!-- Título que aparece arriba en el navegador -->
     <title>Mi Portafolio - Paolo Veloz E.</title>
 
-    <!-- Icono del navegador -->
-    <link rel="icon" href="Imagenes/meowl.jpg" type="image/x-icon">
+    <!-- Icono pequeño del navegador -->
+    <link rel="icon" href="Imagenes/icono.png" type="image/x-icon">
 
-    <!-- Estilos (CSS), para más adelante por el lo dejamos enlazado -->
+    <!-- Archivo de estilos (aunque aún no se use, pero queda listo) -->
     <link rel="stylesheet" href="CSS/estilos.css">
 </head>
 <body style="font-family: Arial, Helvetica, sans-serif;">
     <!-- Cabecera de la pagina -->
-    <header><center>
+    <header style="text-align: center;">
         <!-- Nombres completos en H1 -->
-        <h1>Paolo Isasias Veloz España</h1>
+        <h1>Paolo Isaias Veloz España</h1>
         <!-- Lema Profesional -->
         <p>Si lo puedes imaginar, ¡lo puedes programar!</p>
         <!-- Imagen personal -->
-        <!-- Corrección de tamaños -->
         <img src="Imagenes/meowl.jpg" alt="Foto de Paolo Isaias Veloz España" height="150" width="150">
-    </center></header><br>
+    </header><br>
 
     <!-- Navegación -->
     <nav style="text-align: center; font-size: 20px">
@@ -39,17 +39,18 @@
 
     <main>
         <!-- Sobre Mí -->
+        <!-- Sección donde cuento quién soy y mis intereses principales -->
         <section id="sobremi">
             <h2>Sobre mí</h2>
-            <!-- Descripción personal, usando etiquetas "stronng, em, mark, etc" -->
+            <!-- Uo de etiquetas "strong, em, mark, etc" -->
             <p>👋 Hola, mi nombre es <strong><mark>Paolo Isaias Veloz España</mark></strong>, tengo <u>19 años</u> y vivo en <a href="https://maps.app.goo.gl/JhfjXSeCqwE579xC6" target="_blank">Ecuador, en la ciudad de Babahoyo, provincia de Los Ríos</a>. Desde que era niño me ha gustado la programación; al principio lo veía como un juego, pero con los años se volvió una forma de expresarme, de crear y de resolver cosas a mi manera. Aunque a veces se vuelve un poco difícil, siempre me gusta seguir aprendiendo y mejorando. Me interesa todo lo que tenga que ver con el diseño de páginas, la experiencia de las personas al usarlas y también la creación de pequeñas aplicaciones en Java con NetBeans. Me gusta combinar lo que aprendo con mi forma de ser: paciente, curioso y con muchas ganas de crecer <em>(aunque me cueste al principio)</em>.</p>
             <p>Me gusta pensar que cada proyecto es una nueva oportunidad para aprender y para demostrar lo que puedo hacer. Busco seguir creciendo en este camino, participando en ideas que me reten y me permitan aportar mi creatividad, ya sea haciendo páginas web, aplicaciones o cualquier cosa que ayude a otros a hacer su vida un poco más fácil.</p><br>
         </section>
 
         <!-- Intereses -->
+        <!-- Lista de cosas que me gustan y proyectos que he realizado -->
         <section id="intereses">
             <h2>Intereses y logros</h2>
-            <!-- Descripción de mis intereses y logros que he tenido a lo largo de mis estudios -->
             <p>A lo largo de mis estudios he tenido varios logros y crear varios proyectos que me ayudaron a seguir mejorando. Aquí dejo algunas de ellas:</p>
             <ul>
                 <li>He creado páginas web usando <strong>Wix</strong> y también probé un poco <strong>WordPress</strong>, explorando distintas formas de construir sitios desde cero.</li>
@@ -60,48 +61,104 @@
         </section>
 
         <!-- Habilidades -->
+        <!-- Tabla donde muestro lo que sé "hacer" y mi nivel actual -->
         <section id="habilidades">
             <h2>Habilidades</h2>
+            <!-- Tabla con habilidades, nivel y un comentario breve -->
             <table border="1">
                 <thead>
                     <tr>
-                        <th>as</th>
-                        <th>sd</th>
-                        <th>asdasd</th>
+                        <th>Habilidades</th>
+                        <th>Nivel</th>
+                        <th>Comentario</th>
                     </tr>
                 </thead>
                 <tbody>
+                    <!-- Fila con habilidad HTML -->
                     <tr>
-                        <td>asdf</td>
-                        <td>fsa</td>
-                        <td>fsa</td>
+                        <td>HTML</td>
+                        <td>Básico</td>
+                        <td>Conozco las estructuras principales y como organizar bien una página.</td>
                     </tr>
+                    <!-- Fila con habilidad en NetBeans / Java -->
                     <tr>
-                        <td>fas</td>
-                        <td>fasfa</td>
-                        <td>fas</td>
+                        <td>NetBeans</td>
+                        <td>Básico</td>
+                        <td>He creado aplicaciones sencillas en java, como las de registro de actividades academicas y notas escolares.</td>
                     </tr>
-            </table>
+                    <!-- Fila con habilidad Git/GitHub -->
+                    <tr>
+                        <td>Git - GitHub</td>
+                        <td>Básico</td>
+                        <td>Subo mis proyectos y entiendo lo básico gracias a la ayuda de mi hermano.</td>
+                    </tr>
+                    <!-- Fila con habilidad en bases de datos -->
+                    <tr>
+                        <td>Base de Datos</td>
+                        <td>Básico</td>
+                        <td>Estuve probando un poco sobre como usar las bases de datos, para poder implementarlas en mis aplicaciones de java a futuro.</td>
+                    </tr>
+            </table><br>
         </section>
 
         <!-- Presentación (Multimedia) -->
+        <!-- Aquí muestro un pequeño audio de presentación -->
         <section id="presentacion">
             <h2>Presentación</h2>
-            <!-- Video de presentación de prueba, no es el video oficial -->
-            <video controls width="380">
-                <source src="Videos/Video 1 Prueba - Whatever Happens.mp4" type="video/mp4">
-                Tu navegador no soporta la etiqueta de vídeo.
-            </video><br>
+            <audio controls>
+                <source src="" type="audio/mp3">
+                Tu navegador no soporta la etiqueta de audio.
+            </audio>
             <!-- Descargar la presentación si el navegador no soporta la etiqueta video -->
-            <p><a href="Videos/Video 1 Prueba - Whatever Happens.mp4" download>¿No puedes ver la presentación? Descárgala en MP4</a>.</p>
+            <p><a href="presentación.mp3" download>¿No puedes escuchar la presentación? Descárgala en MP3</a>.</p>
         </section>
 
         <!-- Contacto -->
+        <!-- Formulario para que los usuarios puedan enviarme un mensaje -->
         <section id="contacto">
             <h2>Contacto</h2>
-            <p>
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Laboriosam nam sed obcaecati doloremque veniam, beatae earum, architecto sit id qui, aliquid tenetur unde veritatis sapiente harum explicabo sunt! Amet, incidunt.
-            </p>
+            <!-- Formulario con validaciones: required, type, min, etc -->
+            <form>
+                <fieldset>
+                    <!-- Campo para nombre (obligatorio) -->
+                    <label>Nombre:</label>
+                    <input type="text" name="nombre" required>
+                    <br><br>
+
+                    <!-- Campo para correo con validación de formato -->
+                    <label>Correo:</label>
+                    <input type="email" name="correo" required>
+                    <br><br>
+
+                    <!-- Campo numérico para edad (mínimo 1 para evitar numeros negativos) -->
+                    <label>Edad:</label>
+                    <input type="number" name="edad" min="1" required>
+                    <br><br>
+
+                    <!-- Campo para seleccionar género -->
+                    <label>Género:</label>
+                    <select name="genero" required>
+                        <option value="">Seleccione...</option>
+                        <option value="masculino">Masculino</option>
+                        <option value="femenino">Femenino</option>
+                        <option value="otro">Otro</option>
+                    </select>
+                    <br><br>
+
+                    <!-- Campo para escribir intereses -->
+                    <label>Intereses:</label>
+                    <input type="text" name="intereses" required>
+                    <br><br>
+
+                    <!-- Área de texto para comentarios -->
+                    <label>Comentarios:</label>
+                    <textarea name="comentarios" required></textarea>
+                    <br><br>
+
+                    <!-- Botón para enviar el formulario -->
+                    <button type="submit">Enviar</button>
+                </fieldset>
+            </form>
         </section>
         <hr>
     </main>
